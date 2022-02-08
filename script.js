@@ -1,4 +1,4 @@
-$("#form").on("run", e => {
+$("#form").on("submit", e => {
   e.preventDefault();
 
   const file_list = $("#file").prop("files");
