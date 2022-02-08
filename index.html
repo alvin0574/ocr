@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - OCR sample</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container-fluid">
+  <h2>OCR SAMPLE</h2>
+  <div class="col-xs-6">
+    <form id="form" action="javascript:void(0)">
+      <div class="form-group">
+        <input id="file" type="file"/>
+      </div>
+      <div class="form-group">
+        <select class="form-control" id="lang">
+          <option value="eng">English</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input class="btn btn-default" type="submit" value="Submit"/>
+      </div>
+    </form>
+    <div id="result"></div>
+  </div>
+  <div class="col-xs-6">
+    <div id="progress"></div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.rawgit.com/naptha/tesseract.js/0.2.0/dist/tesseract.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.15.0/lodash.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
